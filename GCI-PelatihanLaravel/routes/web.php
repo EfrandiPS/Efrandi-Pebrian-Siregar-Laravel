@@ -7,6 +7,12 @@ use App\Http\Controllers\AuthController;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/table', function () {
+    return view('table');
+});
+Route::get('/datatable', function () {
+    return view('datatable');
+});
 
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/register', [AuthController::class, 'showRegisterForm']);
