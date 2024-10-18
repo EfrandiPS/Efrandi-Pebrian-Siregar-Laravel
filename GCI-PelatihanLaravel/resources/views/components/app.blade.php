@@ -96,7 +96,14 @@
               </li>
             </ul>
           </li>
-        
+          <li class="nav-item">
+            <a href="{{ route('index') }}" class="nav-link">
+              <i class="nav-icon fas fa-edit"></i>
+              <p>
+                Forms
+              </p>
+            </a>
+          </li>
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
